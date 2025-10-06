@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/exemples_PIR.dir/exemples_PIR.c.o -o exemples_PIR  -Wl,-rpath,/home/lcyl245365/Documents/C_PROJECTS/prividema-fhe/build/src/core/ggsw:/home/lcyl245365/Documents/C_PROJECTS/prividema-fhe/build/src/core/glwe ../src/core/ggsw/libGGSW.so ../src/core/glwe/libGLWE.so 

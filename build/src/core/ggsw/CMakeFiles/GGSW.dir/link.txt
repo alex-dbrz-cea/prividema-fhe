@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libGGSW.so -o libGGSW.so CMakeFiles/GGSW.dir/ggsw.c.o  -Wl,-rpath,/home/lcyl245365/Documents/C_PROJECTS/prividema-fhe/build/src/core/glwe ../glwe/libGLWE.so 

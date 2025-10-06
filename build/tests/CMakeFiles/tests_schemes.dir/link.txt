@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/tests_schemes.dir/schemes/tests_schemes.c.o -o tests_schemes  -Wl,-rpath,/home/lcyl245365/Documents/C_PROJECTS/prividema-fhe/build/src/core/ggsw:/home/lcyl245365/Documents/C_PROJECTS/prividema-fhe/build/src/core/glwe ../src/core/ggsw/libGGSW.so ../src/core/glwe/libGLWE.so 

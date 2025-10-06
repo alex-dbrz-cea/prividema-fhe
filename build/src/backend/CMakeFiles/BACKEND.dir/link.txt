@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libBACKEND.so -o libBACKEND.so CMakeFiles/BACKEND.dir/backend.c.o 

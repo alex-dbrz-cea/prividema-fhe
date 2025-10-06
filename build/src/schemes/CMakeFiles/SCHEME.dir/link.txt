@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSCHEME.a CMakeFiles/SCHEME.dir/scheme.c.o
+/usr/bin/ranlib libSCHEME.a
