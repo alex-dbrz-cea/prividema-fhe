@@ -92,8 +92,8 @@ tests_backend_EXTERNAL_OBJECTS =
 
 tests/tests_backend: tests/CMakeFiles/tests_backend.dir/backend/tests_backend.c.o
 tests/tests_backend: tests/CMakeFiles/tests_backend.dir/build.make
-tests/tests_backend: src/core/ggsw/libGGSW.so
-tests/tests_backend: src/core/glwe/libGLWE.so
+tests/tests_backend: src/core/ggsw/libggsw.so
+tests/tests_backend: src/core/glwe/libglwe.so
 tests/tests_backend: tests/CMakeFiles/tests_backend.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lcyl245365/Documents/C_PROJECTS/prividema-fhe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable tests_backend"
 	cd /home/lcyl245365/Documents/C_PROJECTS/prividema-fhe/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tests_backend.dir/link.txt --verbose=$(VERBOSE)

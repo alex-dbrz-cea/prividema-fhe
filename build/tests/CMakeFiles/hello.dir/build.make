@@ -92,8 +92,8 @@ hello_EXTERNAL_OBJECTS =
 
 tests/hello: tests/CMakeFiles/hello.dir/core/hello.c.o
 tests/hello: tests/CMakeFiles/hello.dir/build.make
-tests/hello: src/core/ggsw/libGGSW.so
-tests/hello: src/core/glwe/libGLWE.so
+tests/hello: src/core/ggsw/libggsw.so
+tests/hello: src/core/glwe/libglwe.so
 tests/hello: tests/CMakeFiles/hello.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lcyl245365/Documents/C_PROJECTS/prividema-fhe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable hello"
 	cd /home/lcyl245365/Documents/C_PROJECTS/prividema-fhe/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello.dir/link.txt --verbose=$(VERBOSE)

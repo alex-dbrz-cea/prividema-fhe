@@ -43,13 +43,8 @@ else()
     add_compile_definitions(DEBUG=0)
 endif(ENABLE_DEBUG)
 
-# Add include directory
-include_directories(${CMAKE_SOURCE_DIR}/include)
-
 # Add subdirectories
 add_subdirectory(src)
-
-
 
 # Add tests subdirectory if the build option BUILD_TESTS is ON
 # The option is OFF by default and can be turned OFF by executing cmake with -DBUILD_TESTS=ON

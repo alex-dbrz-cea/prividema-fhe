@@ -92,8 +92,8 @@ tests_schemes_EXTERNAL_OBJECTS =
 
 tests/tests_schemes: tests/CMakeFiles/tests_schemes.dir/schemes/tests_schemes.c.o
 tests/tests_schemes: tests/CMakeFiles/tests_schemes.dir/build.make
-tests/tests_schemes: src/core/ggsw/libGGSW.so
-tests/tests_schemes: src/core/glwe/libGLWE.so
+tests/tests_schemes: src/core/ggsw/libggsw.so
+tests/tests_schemes: src/core/glwe/libglwe.so
 tests/tests_schemes: tests/CMakeFiles/tests_schemes.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lcyl245365/Documents/C_PROJECTS/prividema-fhe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable tests_schemes"
 	cd /home/lcyl245365/Documents/C_PROJECTS/prividema-fhe/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tests_schemes.dir/link.txt --verbose=$(VERBOSE)

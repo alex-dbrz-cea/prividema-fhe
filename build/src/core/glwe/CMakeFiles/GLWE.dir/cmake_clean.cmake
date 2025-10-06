@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/GLWE.dir/glwe.c.o"
   "CMakeFiles/GLWE.dir/glwe.c.o.d"
-  "libGLWE.pdb"
-  "libGLWE.so"
+  "libglwe.pdb"
+  "libglwe.so"
 )
 
 # Per-language clean rules from dependency scanning.

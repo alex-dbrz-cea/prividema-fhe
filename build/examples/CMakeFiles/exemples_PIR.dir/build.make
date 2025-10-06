@@ -92,8 +92,8 @@ exemples_PIR_EXTERNAL_OBJECTS =
 
 examples/exemples_PIR: examples/CMakeFiles/exemples_PIR.dir/exemples_PIR.c.o
 examples/exemples_PIR: examples/CMakeFiles/exemples_PIR.dir/build.make
-examples/exemples_PIR: src/core/ggsw/libGGSW.so
-examples/exemples_PIR: src/core/glwe/libGLWE.so
+examples/exemples_PIR: src/core/ggsw/libggsw.so
+examples/exemples_PIR: src/core/glwe/libglwe.so
 examples/exemples_PIR: examples/CMakeFiles/exemples_PIR.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lcyl245365/Documents/C_PROJECTS/prividema-fhe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable exemples_PIR"
 	cd /home/lcyl245365/Documents/C_PROJECTS/prividema-fhe/build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exemples_PIR.dir/link.txt --verbose=$(VERBOSE)

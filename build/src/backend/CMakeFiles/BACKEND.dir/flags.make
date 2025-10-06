@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DBACKEND_EXPORTS -DDEBUG=0
 
-C_INCLUDES = -I/home/lcyl245365/Documents/C_PROJECTS/prividema-fhe/include
+C_INCLUDES = 
 
 C_FLAGS = -std=gnu11 -fPIC
 

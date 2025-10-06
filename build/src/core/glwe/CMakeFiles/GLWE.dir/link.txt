@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libGLWE.so -o libGLWE.so CMakeFiles/GLWE.dir/glwe.c.o 
+/usr/bin/cc -fPIC -shared -Wl,-soname,libglwe.so -o libglwe.so CMakeFiles/GLWE.dir/glwe.c.o 

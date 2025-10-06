@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/GGSW.dir/ggsw.c.o"
   "CMakeFiles/GGSW.dir/ggsw.c.o.d"
-  "libGGSW.pdb"
-  "libGGSW.so"
+  "libggsw.pdb"
+  "libggsw.so"
 )
 
 # Per-language clean rules from dependency scanning.

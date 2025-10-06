@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DDEBUG=0 -DGGSW_EXPORTS
 
-C_INCLUDES = -I/home/lcyl245365/Documents/C_PROJECTS/prividema-fhe/include -I/home/lcyl245365/Documents/C_PROJECTS/prividema-fhe/include/core/glwe
+C_INCLUDES = -I/home/lcyl245365/Documents/C_PROJECTS/prividema-fhe/include/core/glwe
 
 C_FLAGS = -std=gnu11 -fPIC
 
